@@ -456,40 +456,40 @@
     <None Include="Assets\SimpleGridShader\README.txt" />
     <None Include="Assets\SimpleGridShader\GridShader.shader" />
     <None Include="Assets\Mapbox\link.xml" />
-    <None Include="Assets\Wispy Sky\ReadMe.txt" />
+    <None Include="Assets\WispySky\ReadMe.txt" />
     <None Include="Assets\Mapbox\Core\Plugins\link.xml" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -669,31 +669,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="MapboxAccountsUnity">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.IO.Compression">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
     </Reference>
     <Reference Include="Mapbox.Json">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
     </Reference>
     <Reference Include="Triangle">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangle.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/nicoversity/polyextrude/_libraries/Triangle.NET/Triangle.dll</HintPath>
     </Reference>
     <Reference Include="UnityNpgsql">
-      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGISinUnity/Assets/Plugin/UnityNpgsql.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Projects/PostGISinUnity/PostGisInUnityGit/PostGISinUnity/Assets/Plugin/UnityNpgsql.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

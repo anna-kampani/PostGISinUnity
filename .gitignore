@@ -7,6 +7,10 @@
 *.userosscache
 *.sln.docstates
 
+#custom folders
+Assets/WispySky/Extras
+Temp/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -259,3 +263,4 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
