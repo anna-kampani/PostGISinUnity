@@ -8,7 +8,7 @@
 *.sln.docstates
 
 #custom folders
-Assets/WispySky/Extras/
+WispySky/
 Temp/
 *.psd
 
