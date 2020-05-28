@@ -8,8 +8,9 @@
 *.sln.docstates
 
 #custom folders
-Assets/WispySky/Extras
+Assets/WispySky/Extras/
 Temp/
+*.psd
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
