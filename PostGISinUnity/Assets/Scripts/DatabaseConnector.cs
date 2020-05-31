@@ -16,6 +16,9 @@ public class DatabaseConnector : MonoBehaviour
 {
     public delegate void OnLoadGeometries();
     public static event OnLoadGeometries LoadGeometries;
+    
+    public delegate void OnImageLoaded(byte[] binary, float lat, float lon);
+    public static event OnImageLoaded GenerateTerrain;
 
     public static DatabaseConnector Instance;
 
@@ -48,18 +51,7 @@ public class DatabaseConnector : MonoBehaviour
     }
 
     public void LoadImageTerrain()
-    {
-        //string sqlCmd = @"SELECT ST_AsPNG(
-        //                     ST_Transform(
-        //                     ST_AddBand(
-        //                         ST_Union(rast, 1), ARRAY[ST_Union(rast, 2), ST_Union(rast, 3)]), 27700)) As new_rast
-        //                FROM demelevation
-
-        //                    WHERE
-
-        //                        ST_Intersects(rast,
-        //                            ST_Transform(ST_MakeEnvelope(-0.19118, 51.49065, -0.18913, 51.49245, 4326), 27700))";
-
+    {      
         string sqlCmd = @"SELECT ST_AsPNG(
                              ST_Transform(
                              ST_AddBand(
@@ -76,6 +68,8 @@ public class DatabaseConnector : MonoBehaviour
         Debug.Log(res);
 
         GenerateImage(res);
+       
+        GenerateTerrain(res, -0.19118f, 51.49065f);
     }
 
     /// <summary>
@@ -144,26 +138,9 @@ public class DatabaseConnector : MonoBehaviour
             // Define a query          
             NpgsqlCommand cmd = new NpgsqlCommand(sqlCMD, conn);
             cmd.Parameters.Add(new NpgsqlParameter("input_srid", input_srid));
-           
-            //NpgsqlDataAdapter da = new NpgsqlDataAdapter(sqlCMD, conn);
-
-
-            //// Close connection
-            //conn.Close();
-            //// Clean up
-            //conn = null;
-
-
-            //da.Fill(dt); // filling DataSet with result from NpgsqlDataAdapter
-            //             // dt = ds.Tables[0]; // since it C# DataSet can handle multiple tables, we will select first
-
-            //Debug.Log("dt rows " + dt.Rows[0]["new_rast"]);
-            //result = (Byte[])dt.Rows[0]["new_rast"];
-
+         
             result = (byte[])cmd.ExecuteScalar();
             conn.Close();
-
-
         }
         catch (Exception msg)
         {
@@ -241,17 +218,18 @@ public class DatabaseConnector : MonoBehaviour
     void GenerateImage(byte[] imgData)
     {        
         Debug.Log(imgData.Length);
-        int height = 50;
-        int width = 50;
+        int height = 2000;
+        int width = 2000;
         Texture2D target = new Texture2D(height, width);
         
-        target.LoadImage(imgData);
-      
+        target.LoadImage(imgData);       
+
         // In this case we would have to asign the result to a variable in order to use it later        
-        var rawJpgBytes = target.EncodeToJPG();
+        byte[] rawJpgBytes = target.EncodeToPNG();
        
 
         // Assign the texture to the RawImage component
         image.texture = target;
+
     }
 }
